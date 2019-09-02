@@ -1,0 +1,1045 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+.divider {
+  min-height: 100px;
+  min-width: 100%;
+  background-color:#DDDAD3;
+}
+
+.topspacer {
+  min-height: 100px;
+  min-width: 100%;
+  background-color:white;
+}
+
+.backgroundspacer {
+  min-width: 100%;
+  min-height: 80px;
+  background-color: #7D191E;
+}
+
+.pagetitle {
+  text-align: left;
+  width: 100%;
+  background-color: #7D191E;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;
+  padding-left: 2%;
+  border-top: 3px white solid;
+}
+
+.pagetitle h5 {
+  transform: translate(0px, -50px);
+}
+
+.pagetitle_ps {
+  text-align: left;
+  width: 100%;
+  background-color: #7D191E;
+  color: white;
+  font-size: 40px;
+  font-weight:bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+}
+
+.pagetitle_ps h3 {
+  transform: translate(0px, 20px);
+}
+
+.image_ps {
+  height: auto;
+  width: 700px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.image_ps_body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps_text {
+  text-align: left;
+  margin-left: 7%;
+}
+
+.ps_text h3 {
+  color: #7D191E;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.ps_text h2 {
+  color: #928B81;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -4%;
+}
+
+.ps_text_main {
+  margin-left: -11.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*Universal-Top*/
+
+#top {
+  background-color: white;
+  color: white;
+  width: 100%;
+  position:fixed;
+  height:auto;
+  display: flex;
+  flex-flow: nowrap;
+  z-index: 1;
+  border: solid 1px black;
+}
+
+#logo {
+  padding: 1%;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  align-self: center;
+  padding-right: 2%;
+}
+
+#navbar {
+  align-self: center;
+  margin-left: auto;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar a {
+  float: left;
+  color: #7D191E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#navbar a:hover {
+  background-color: #7D191E;
+  color:white;
+}
+
+/*Universal-Bottom*/
+
+footer {
+  min-width: 100%;
+  background-color: #7D191E;
+  display: flex;
+  justify-content: space-between;
+}
+
+#socialmedia {
+  padding:1%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: solid white 3px;
+}
+
+.fa:hover {
+    color:#7D191E;
+    background-color:white;
+}
+
+.fa-facebook {
+  background: #7D191E;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #7D191E;
+  color: white;
+}
+
+#address a {
+  color: white;
+  background-color: #7D191E;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15%;
+  margin-right: 10%;
+  padding: 5px;
+  border-radius: 15px;
+  border: solid white 3px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+#address a:hover{
+  background-color: white;
+  color:#7D191E;
+}
+
+/*MAIN BODY*/
+
+
+/*landing image*/
+#mainimage_container {
+ position: relative;
+ text-align: center;
+ color: black;
+ z-index: 0;
+}
+
+#mainimage_text {
+ position: absolute;
+ top: 35%;
+ left: 50%;
+ transform: translate(-30%, -50%);
+}
+
+#mainimage_text p {
+  font-weight: bold;
+  align-self: center;
+  font-size: 50px;
+  margin-top: -1%;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#mainimage_text a {
+  text-decoration: none;
+  color:white;
+  opacity: .75;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+#mainimage_text a:hover {
+  color: white;
+}
+
+#mainimage_text h1 {
+  align-self: center;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Lexend Deca', sans-serif;
+  color:white;
+  opacity: .75;
+}
+
+#mainimage_text h2 {
+  align-self: center;
+  margin-top: -7%;
+  font-size: 30px;
+  font-weight: bold;
+  color:white;
+  opacity: .75;
+}
+
+
+/*landing page SCP*/
+
+.slide {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#mainimagescp_container {
+ position: relative;
+ text-align: center;
+ color: black;
+ z-index: 0;
+}
+
+#mainimagescp_text {
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+#mainimagescp_text p {
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    color: black;
+    align-self: center;
+    font-size: 50px;
+    margin-top: -1%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    border: white 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#mainimagescp_text a {
+  text-decoration: none;
+  color: black;
+
+}
+
+#mainimagescp_text a:hover {
+  color: white;
+}
+
+#mainimagescp_text h1 {
+  align-self: center;
+  font-size: 120px;
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    color: black;
+}
+
+#mainimagescp_text h2 {
+  align-self: center;
+  margin-top: -7%;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    color: black;
+}
+
+/*missionpoints*/
+
+#missionpoints {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 2px #928B81 solid;
+}
+
+.column {
+  max-width:215px;
+  min-height:200px;
+  height:auto;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5%;
+  border-left: 1px black solid;
+}
+
+.column h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.column p {
+  font-size: 20px;
+}
+
+/*missionpoints_scp*/
+
+#slideshow_container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+}
+
+#slideshow_container h2{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#slideshow_container h4{
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+#divider_scp {
+  background-color: #0d7727;
+  min-height: 150px;
+  margin-top:-5%;
+}
+
+#divider_scp2 {
+  background-color: #0d7727;
+  min-height: 150px;
+  margin-top:0;
+}
+
+#missionpoints_scp {
+  margin:5%;
+}
+
+.scplogo {
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+  height: auto;
+}
+
+.scplogoblock {
+  padding: 2%;
+  border-bottom: solid 3px #296F9B;
+}
+
+#missionpoints_scp h2{
+  text-align: center;
+  font-size: 50px;
+  padding: 2%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#missionpoints_scp h3{
+  text-align: center;
+  font-size: 55px;
+  color:#336804;
+}
+
+#missionpoints_scp p{
+  font-size: 18px;
+  text-align: left;
+}
+
+#missionpoints_scp  h4 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  color:#296F9B;
+}
+
+#missionpoints_scp h5 {
+  text-align: left;
+}
+
+#imagecontainer_scp {
+  display: flex;
+  flex-flow: row;
+}
+
+#imagecontainer_scp h5 {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10%;
+  color: white;
+  font-size: 18px;
+  border: black 2px solid;
+  background-color: black;
+  padding: 0.5%;
+}
+
+.image_scp {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+table {
+  padding-top: 3%;
+}
+
+td {
+  height: 40px;
+  padding-bottom: 2%;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 24px;
+  color: #296F9B;
+  width: 20%;
+  vertical-align: top;
+}
+
+.right {
+  font-size: 18px;
+}
+
+.scpdonate {
+  border-radius: 30px;
+  border: 3px solid #336804;
+  padding: 10px;
+}
+
+/*Video - Need to reinsert html when video is ready from worksheet*/
+
+#scpvideo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2%;
+}
+
+.video button {
+  background-color: #336804;
+  color: white;
+  padding: 1%;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/*partners - Need to reinsert html when graphics are ready*/
+
+#partnerscontainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+#partnerstagline {
+  height: auto;
+  min-width: 30%;
+  background-color: #DDDAD3;
+  display:flex;
+  align-items: baseline;
+}
+
+#partnerstagline h4 {
+margin: 15%;
+font-size: 25px;
+font-weight: bold;
+}
+
+#partnersgraphic {
+  width: 70%;
+  height: auto;
+  background-color: #7D191E;
+}
+
+.partner {
+  margin: 5px;
+  color: white;
+  font-size: 50px;
+}
+
+/*casestudies preview*/
+
+#casestudies {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#casestudytitle {
+  max-width:320px;
+  max-height:500px;
+  background-color: #7D191E;
+  margin: 1%;
+  border-radius: 15px;
+  border: 1px black solid;
+}
+
+#casestudytitle p {
+  display: inline-block;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  padding: 3%;
+  font-weight: bold;
+}
+
+#casestudytitle a {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 15px 32px;
+  font-size: 20px;
+  border: solid white 1px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30%;
+  text-decoration: none;
+  width: 110px;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+#casestudytitle a:hover {
+  background-color: white;
+  color: #7D191E;
+}
+
+.casestudy {
+  max-width:320px;
+  min-height:500px;
+  background-color: #DDDAD3;
+  margin: 1%;
+  border-radius: 0px 0px 15px 15px;
+  border: 1px black solid;
+}
+.casestudy h5 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.casestudy p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  margin: 2%;
+}
+
+.casestudy a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 15px 32px;
+  font-size: 20px;
+  border: solid black 1px;
+  border-radius: 15px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  width: 110px;
+}
+
+.casestudy a:hover {
+  background-color: white;
+}
+
+/*testimonial preview*/
+
+.testimonial_large {
+  width: 100%;
+  height: auto;
+}
+
+/*ContactUs*/
+
+#contactus_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+
+#aboutusmain_image {
+  height:600px;
+  margin-left: 2%;
+  padding-top: 5%;
+}
+
+#aboutusmain {
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 60%;
+}
+
+#aboutusmain h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#aboutusmain h3 {
+  color: black;
+  text-align: center;
+  font-size: 28px;
+}
+
+#aboutusmain p {
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+#aboutusmain a {
+  display: block;
+  text-align: center;
+  color: #7D191E;
+  background-color: white;
+  font-size: 16px;
+  border: solid #7D191E 3px;
+  border-radius: 15px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 3%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#aboutusmain a:hover {
+  color: white;
+  background-color: #7D191E;
+}
+
+/*sidenav*/
+
+.sidenav_top {
+  background-color: #7D191E;
+  color:white;
+  display: block;
+  padding: 2%;
+}
+
+.sidenav_inside {
+  margin-left: 2%;
+  color: white;
+  display: block;
+}
+
+#mySidenav {
+  box-shadow: 0px 0px 0px 3px white inset;
+}
+
+.sidebarlinks {
+  margin-top: 50%;
+}
+
+.sidebarlogo {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7D191E;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #7D191E;
+  background-color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*testimonial page*/
+
+#testimonial_container a{
+  margin: 1%;
+  background-color: #7D191E;
+  border: white 3px double;
+  width: 40%;
+  text-decoration: none;
+  color:white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+#testimonial_container a:hover{
+  background-color: white;
+  border: #7D191E 3px double;
+  width: 40%;
+  color:#7D191E;
+}
+
+.testimonialmain {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  color:#7D191E;
+  text-align: left;
+}
+
+.testimonialmain p{
+  font-size: 24px;
+  font-family: 'Kalam', cursive;
+}
+
+.testimonialmain h5{
+  text-align: left;
+  padding-right:  2%;
+  margin-bottom: -10px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+}
+
+/*casestudy page*/
+
+.return a {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 15px 32px;
+  font-size: 15px;
+  border: solid white 1px;
+  border-radius: 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  text-decoration: none;
+  width: 300px;
+}
+
+.return a:hover {
+    background-color: white;
+}
+
+
+.casestudy_body {
+  background-color: #181818;
+  color: white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.casestudy_body p {
+  margin-left: 12%;
+  margin-right: 30%;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+.casestudybody {
+background: #DDDAD3;
+}
+
+#casestudy_divider {
+  min-height: 80px;
+  min-width: 100%;
+  background-color: #DDDAD3
+}
+
+.return {
+}
+
+.return a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 15px 32px;
+  font-size: 15px;
+  border: solid black 1px;
+  border-radius: 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  text-decoration: none;
+  width: 300px;
+}
+
+
+.casestudy_title h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  width:300px;
+  padding-bottom:1%;
+}
+
+.casestudy_title h3 {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.casestudy_body {
+  width: 100%;
+  background-color: white;
+  color:black;
+}
+
+.casestudy_body p {
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+/* Header/Blog Title */
+.p_header {
+  font-size: 25px;
+  text-align: center;
+  background-color: #928B81;
+  border: double 5px black;
+  margin-top: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.p_leftcolumn {
+  float: left;
+  width: 70%;
+  margin-left: 30px;
+}
+
+/* Right column */
+.p_rightcolumn {
+  float: left;
+  width: 20%;
+  margin-left: 30px;
+}
+
+/* Fake image */
+.p_fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  background-color: #928B81;
+}
+
+/* Add a card effect for articles */
+.p_card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #928B81;
+  border: double 3px black;
+}
+
+/* Clear floats after the columns */
+.p_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .p_leftcolumn, .p_rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.teampage_block {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.teampage_block p{
+  font-size: 18px;
+
+}
+
+.teampage_block h2 {
+  font-size:30px;
+  text-align: left;
+  color: #7D191E;
+  width:600px;
+  padding-left:0;
+  padding-right:1% ;
+  padding-top:1%;
+  padding-bottom:0 ;
+
+
+  .teampage_block h5 {
+    text-align: center;
+    padding-left:  2%;
+    padding-right:  2%;
+    font-size: 30px;
+  }
+
+/*Partner stories*/
+
+.PartnerStoryHeader {
+  padding: 1%;
+  background-color: #DDDAD3;
+  width: 100%;
+  text-align:center;
+  padding: 1%;
+  color:#7D191E;
+  font-size:50px;
+}
+
+.fuckthisimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
